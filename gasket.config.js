@@ -7,4 +7,14 @@ module.exports = {
       '@gasket/jest',
     ],
   },
+  webpack: {
+    module: {
+      rules: [
+        {
+          test: /\.svg$/,
+          loader: 'react-svg-loader'
+        }
+      ]
+    }
+  }
 };

@@ -1,6 +1,6 @@
 {
   "name": "busted-mini",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "showcase app for mini artists to post and get inspired from other painters",
   "scripts": {
     "build": "gasket build",
@@ -17,11 +17,14 @@
     "@gasket/plugin-jest": "latest",
     "@gasket/preset-nextjs": "^5.1.3",
     "@gasket/redux": "^5.0.2",
+    "bootstrap": "^4.4.1",
+    "bootswatch": "^4.4.1",
     "express": "^4.16.3",
     "next": "^9.1.2",
     "next-redux-wrapper": "^4.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.17",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
     "redux": "^4.0.4"
@@ -29,6 +32,10 @@
   "devDependencies": {
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
-    "jest": "^24.8.0"
+    "i": "^0.3.6",
+    "jest": "^24.8.0",
+    "npm": "^6.14.3",
+    "react-svg-loader": "^3.0.3",
+    "sass": "^1.26.3"
   }
 }
